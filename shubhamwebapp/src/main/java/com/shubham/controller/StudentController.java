@@ -171,7 +171,7 @@ public class StudentController {
 	public String setupForm(Map<String, Object> map){
 		Student student = new Student();
 	
-		map.put("studentList", studentService.getAllStudent());
+//		map.put("studentList", studentService.getAllStudent());
 		return "smsIndex";
 	}
 	
